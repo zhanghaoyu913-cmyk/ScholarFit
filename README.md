@@ -54,6 +54,22 @@ scholarfit/
 
 ## Quick Start
 
+### One-Click Local Launcher
+
+On Windows, double-click:
+
+```text
+Start-ScholarFit.cmd
+```
+
+It starts a hidden local server and opens the web app automatically. To stop it, double-click:
+
+```text
+Stop-ScholarFit.cmd
+```
+
+Details: [docs/local_launcher.md](docs/local_launcher.md).
+
 ### Web Version
 
 For ordinary users, use the static web app first:

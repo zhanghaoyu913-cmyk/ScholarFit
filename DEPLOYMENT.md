@@ -88,6 +88,18 @@ Then visit:
 http://127.0.0.1:8765/
 ```
 
+For a one-click local demo on Windows, use:
+
+```text
+Start-ScholarFit.cmd
+```
+
+Then stop it with:
+
+```text
+Stop-ScholarFit.cmd
+```
+
 ## Privacy Note
 
 The current static version stores answers only in the user's browser localStorage. It does not upload responses to a server.
