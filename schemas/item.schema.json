@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScholarFit Item Bank",
+  "type": "object",
+  "required": ["chapter", "items"],
+  "properties": {
+    "chapter_id": {
+      "type": "integer"
+    },
+    "chapter": {
+      "type": "string"
+    },
+    "story_name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "chapter", "type", "constructs", "scenario", "question"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "chapter": {
+            "type": "string"
+          },
+          "type": {
+            "enum": ["situational_judgment", "ranking", "slider", "reflection", "behavior_evidence"]
+          },
+          "constructs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "scenario": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "options": {
+            "type": ["object", "array"]
+          },
+          "scale": {
+            "type": "object"
+          },
+          "scoring": {
+            "type": "object"
+          },
+          "reporting_rule": {
+            "type": "string"
+          },
+          "validation_status": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "chapter_id": 5,
+  "chapter": "同行审判",
+  "story_name": "Peer Review Trial",
+  "version": "0.1.0-draft",
+  "language": "zh-CN",
+  "items": [
+    {
+      "id": "CH5_SJT_001",
+      "chapter": "同行审判",
+      "type": "situational_judgment",
+      "constructs": [
+        "academic_integrity.transparency",
+        "emotional_stability.criticism_recovery",
+        "research_self_efficacy.writing",
+        "research_maturity.revision_strategy"
+      ],
+      "scenario": "论文被拒，reviewer 质疑你的核心假设并指出实验不足。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "academic_integrity.transparency": 1,
+          "emotional_stability.criticism_recovery": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "emotional_stability.criticism_recovery": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "academic_integrity.transparency": -0.5
+        },
+        "D": {
+          "academic_integrity.transparency": 1,
+          "research_maturity.problem_abstraction": 1,
+          "agreeableness.feedback_acceptance": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "emotional_stability.criticism_recovery": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_SJT_002",
+      "chapter": "同行审判",
+      "type": "situational_judgment",
+      "constructs": [
+        "academic_integrity.transparency",
+        "emotional_stability.criticism_recovery",
+        "research_self_efficacy.writing",
+        "research_maturity.revision_strategy"
+      ],
+      "scenario": "reviewer 明显误解了你的方法，但语气很强硬。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "academic_integrity.transparency": 1,
+          "emotional_stability.criticism_recovery": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "emotional_stability.criticism_recovery": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "academic_integrity.transparency": -0.5
+        },
+        "D": {
+          "academic_integrity.transparency": 1,
+          "research_maturity.problem_abstraction": 1,
+          "agreeableness.feedback_acceptance": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "emotional_stability.criticism_recovery": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_SJT_003",
+      "chapter": "同行审判",
+      "type": "situational_judgment",
+      "constructs": [
+        "academic_integrity.transparency",
+        "emotional_stability.criticism_recovery",
+        "research_self_efficacy.writing",
+        "research_maturity.revision_strategy"
+      ],
+      "scenario": "合作者建议弱化一个不利实验结果，让故事更顺。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "academic_integrity.transparency": 1,
+          "emotional_stability.criticism_recovery": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "emotional_stability.criticism_recovery": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "academic_integrity.transparency": -0.5
+        },
+        "D": {
+          "academic_integrity.transparency": 1,
+          "research_maturity.problem_abstraction": 1,
+          "agreeableness.feedback_acceptance": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "emotional_stability.criticism_recovery": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_SJT_004",
+      "chapter": "同行审判",
+      "type": "situational_judgment",
+      "constructs": [
+        "academic_integrity.transparency",
+        "emotional_stability.criticism_recovery",
+        "research_self_efficacy.writing",
+        "research_maturity.revision_strategy"
+      ],
+      "scenario": "你收到大修意见，需要在两周内补实验和重写 discussion。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "academic_integrity.transparency": 1,
+          "emotional_stability.criticism_recovery": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "emotional_stability.criticism_recovery": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "academic_integrity.transparency": -0.5
+        },
+        "D": {
+          "academic_integrity.transparency": 1,
+          "research_maturity.problem_abstraction": 1,
+          "agreeableness.feedback_acceptance": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "emotional_stability.criticism_recovery": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_RANK_001",
+      "chapter": "同行审判",
+      "type": "ranking",
+      "constructs": [
+        "academic_integrity.transparency",
+        "emotional_stability.criticism_recovery",
+        "help_seeking.feedback_use",
+        "stress_recovery.restoration",
+        "research_behavior.short_term_output_orientation"
+      ],
+      "scenario": "在“同行审判”阶段，你面临多个互相竞争的行动选择。",
+      "question": "请按你最可能采取的顺序排序。",
+      "options": {
+        "A": "系统拆解问题并记录证据。",
+        "B": "主动找导师、同学或领域内的人做一次反馈讨论。",
+        "C": "先恢复状态，再安排下一轮行动。",
+        "D": "切换到短期更稳妥或更容易展示的任务。",
+        "E": "回到文献、数据或原始需求，检查假设是否成立。"
+      },
+      "scoring": {
+        "position_weights": [
+          2,
+          1,
+          0,
+          -1,
+          -2
+        ],
+        "options": {
+          "A": {
+            "emotional_stability.criticism_recovery": 1,
+            "research_maturity.evidence_reasoning": 1
+          },
+          "B": {
+            "help_seeking.feedback_use": 1,
+            "advisor_fit.feedback_need": 0.5
+          },
+          "C": {
+            "stress_recovery.restoration": 1,
+            "emotional_stability.failure_recovery": 0.5
+          },
+          "D": {
+            "research_behavior.short_term_output_orientation": 1
+          },
+          "E": {
+            "academic_integrity.transparency": 1,
+            "research_maturity.problem_abstraction": 0.5
+          }
+        }
+      },
+      "reporting_rule": "排序题用于估计优先级，不把任一选择解释为人格缺陷。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_RANK_002",
+      "chapter": "同行审判",
+      "type": "ranking",
+      "constructs": [
+        "academic_integrity.transparency",
+        "emotional_stability.criticism_recovery",
+        "help_seeking.feedback_use",
+        "stress_recovery.restoration",
+        "research_behavior.short_term_output_orientation"
+      ],
+      "scenario": "在“同行审判”阶段，你面临多个互相竞争的行动选择。",
+      "question": "请按你最可能采取的顺序排序。",
+      "options": {
+        "A": "系统拆解问题并记录证据。",
+        "B": "主动找导师、同学或领域内的人做一次反馈讨论。",
+        "C": "先恢复状态，再安排下一轮行动。",
+        "D": "切换到短期更稳妥或更容易展示的任务。",
+        "E": "回到文献、数据或原始需求，检查假设是否成立。"
+      },
+      "scoring": {
+        "position_weights": [
+          2,
+          1,
+          0,
+          -1,
+          -2
+        ],
+        "options": {
+          "A": {
+            "emotional_stability.criticism_recovery": 1,
+            "research_maturity.evidence_reasoning": 1
+          },
+          "B": {
+            "help_seeking.feedback_use": 1,
+            "advisor_fit.feedback_need": 0.5
+          },
+          "C": {
+            "stress_recovery.restoration": 1,
+            "emotional_stability.failure_recovery": 0.5
+          },
+          "D": {
+            "research_behavior.short_term_output_orientation": 1
+          },
+          "E": {
+            "academic_integrity.transparency": 1,
+            "research_maturity.problem_abstraction": 0.5
+          }
+        }
+      },
+      "reporting_rule": "排序题用于估计优先级，不把任一选择解释为人格缺陷。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_SLIDER_001",
+      "chapter": "同行审判",
+      "type": "slider",
+      "constructs": [
+        "direction_interest.theoretical",
+        "direction_interest.experimental",
+        "direction_interest.engineering_system"
+      ],
+      "scenario": "在“同行审判”阶段，你需要选择一种推进方式。",
+      "question": "你更接近哪一侧？",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "left_label": "先建立理论框架",
+        "right_label": "先做实验原型"
+      },
+      "scoring": {
+        "min": 1,
+        "max": 5,
+        "left": {
+          "direction_interest.theoretical": 1
+        },
+        "right": {
+          "direction_interest.experimental": 1,
+          "direction_interest.engineering_system": 0.5
+        }
+      },
+      "reporting_rule": "滑条解释为连续偏好，不作为优劣判断。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_SLIDER_002",
+      "chapter": "同行审判",
+      "type": "slider",
+      "constructs": [
+        "advisor_fit.structure_need",
+        "advisor_fit.feedback_need",
+        "advisor_fit.autonomy_tolerance",
+        "research_maturity.problem_finding"
+      ],
+      "scenario": "在“同行审判”阶段，你需要选择一种推进方式。",
+      "question": "你更接近哪一侧？",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "left_label": "需要明确任务和反馈",
+        "right_label": "可以在模糊问题中自驱探索"
+      },
+      "scoring": {
+        "min": 1,
+        "max": 5,
+        "left": {
+          "advisor_fit.structure_need": 1,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "right": {
+          "advisor_fit.autonomy_tolerance": 1,
+          "research_maturity.problem_finding": 0.5
+        }
+      },
+      "reporting_rule": "滑条解释为连续偏好，不作为优劣判断。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_REFLECT_001",
+      "chapter": "同行审判",
+      "type": "reflection",
+      "constructs": [
+        "research_maturity.metacognition",
+        "stress_recovery.failure_attribution",
+        "growth.next_90_days"
+      ],
+      "scenario": "请回忆一次与你的“同行审判”主题相近的真实经历。",
+      "question": "当时发生了什么？你如何判断原因？后来做了什么改变？",
+      "scoring": {
+        "rubric": {
+          "attribution": "可控因素 vs 全局自我否定",
+          "specificity": "是否具体定位原因",
+          "strategy_change": "是否产生后续策略",
+          "emotional_regulation": "是否能恢复并继续推进",
+          "research_maturity": "是否抽象出可迁移经验"
+        }
+      },
+      "reporting_rule": "开放题需人工或可选 LLM 按 rubric 编码，不直接诊断。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH5_BEHAVIOR_001",
+      "chapter": "同行审判",
+      "type": "behavior_evidence",
+      "constructs": [
+        "research_behavior.prior_experience",
+        "research_self_efficacy.literature_integration",
+        "research_self_efficacy.debugging",
+        "academic_integrity.reproducibility"
+      ],
+      "scenario": "过去 6 个月，你做过哪些与科研准备相关的事情？",
+      "question": "请选择所有符合的行为证据。",
+      "options": {
+        "A": "精读并整理过 10 篇以上论文。",
+        "B": "复现过论文、开源项目或公开实验。",
+        "C": "写过技术报告、survey、研究计划或论文草稿。",
+        "D": "主动找老师、博士生或同行讨论过研究问题。",
+        "E": "做过持续超过 1 个月的项目。",
+        "F": "做过实验失败、项目失败或学习失败复盘。",
+        "G": "维护过 GitHub 仓库、实验记录或可复现材料。"
+      },
+      "scoring": {
+        "options": {
+          "A": {
+            "research_self_efficacy.literature_integration": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "B": {
+            "research_self_efficacy.debugging": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "C": {
+            "research_self_efficacy.writing": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "D": {
+            "help_seeking.feedback_use": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "E": {
+            "conscientiousness.long_term_follow_through": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "F": {
+            "research_maturity.failure_review": 1,
+            "stress_recovery.failure_attribution": 0.5
+          },
+          "G": {
+            "academic_integrity.reproducibility": 1,
+            "conscientiousness.systematicity": 0.5
+          }
+        }
+      },
+      "reporting_rule": "行为证据用于校准自评，但要考虑机会、资源与背景差异。",
+      "validation_status": "draft"
+    }
+  ]
+}

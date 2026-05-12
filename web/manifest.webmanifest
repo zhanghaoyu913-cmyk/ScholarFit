@@ -1,0 +1,18 @@
+{
+  "name": "ScholarFit 学术罗盘",
+  "short_name": "ScholarFit",
+  "description": "故事化科研潜力与博士路径适配测评系统",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7fbf6",
+  "theme_color": "#1e7b5f",
+  "icons": [
+    {
+      "src": "./assets/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

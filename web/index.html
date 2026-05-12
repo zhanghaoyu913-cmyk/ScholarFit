@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ScholarFit 学术罗盘</title>
+    <meta name="theme-color" content="#1e7b5f" />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="side-panel">
+        <div class="app-logo">
+          <img src="assets/logo.svg" alt="ScholarFit logo" />
+          <div>
+            <div class="brand-mark">ScholarFit</div>
+            <h1>学术罗盘</h1>
+          </div>
+        </div>
+        <p class="subtitle">故事化科研潜力与博士路径适配测评系统</p>
+        <div class="boundary-card">
+          <strong>使用边界</strong>
+          <span>这是自我理解工具，不用于招生、招聘、淘汰或心理诊断。</span>
+        </div>
+        <div class="mode-card">
+          <strong id="modeTitle">快速版</strong>
+          <span id="modeDescription">20 题，适合首次体验。</span>
+          <div class="mode-actions">
+            <a href="index.html?mode=quick">快速版</a>
+            <a href="index.html?mode=full">完整版</a>
+          </div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-copy">
+            <span id="progressText">0 / 80</span>
+            <span id="chapterText">全部章节</span>
+          </div>
+          <div class="progress-track">
+            <div id="progressBar" class="progress-bar"></div>
+          </div>
+        </div>
+        <nav id="chapterNav" class="chapter-nav" aria-label="章节"></nav>
+        <div class="side-actions">
+          <button id="showReportButton" class="primary-button" type="button">生成报告</button>
+          <button id="clearButton" class="ghost-button" type="button">清空本机答案</button>
+        </div>
+      </aside>
+
+      <main class="main-panel">
+        <section class="hero">
+          <div>
+            <p class="eyebrow">PhD Journey Simulator</p>
+            <h2>把博士训练中的真实困境，转化成可反思的选择、排序和证据。</h2>
+          </div>
+          <div class="hero-note">
+            <span id="modeText">当前模式：快速版</span>
+            <span>本页完全在浏览器本地运行。</span>
+            <span>答案会保存到当前浏览器的 localStorage。</span>
+          </div>
+        </section>
+
+        <section id="itemStage" class="item-stage" aria-live="polite"></section>
+
+        <section class="navigation-row">
+          <button id="prevButton" class="ghost-button" type="button">上一题</button>
+          <button id="nextButton" class="primary-button" type="button">下一题</button>
+        </section>
+
+        <section id="reportPanel" class="report-panel hidden"></section>
+      </main>
+    </div>
+
+    <script src="items.generated.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

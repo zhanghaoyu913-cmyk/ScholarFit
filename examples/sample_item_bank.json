@@ -1,0 +1,52 @@
+{
+  "chapter": "实验废墟",
+  "items": [
+    {
+      "id": "CH3_SJT_001",
+      "chapter": "实验废墟",
+      "type": "situational_judgment",
+      "constructs": [
+        "research_self_efficacy.debugging",
+        "conscientiousness.systematicity",
+        "emotional_stability.failure_recovery",
+        "research_maturity.failure_review"
+      ],
+      "scenario": "你复现一篇论文，官方代码能跑，但结果比论文低 20%。你已经检查三天仍然没有找到原因。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "research_self_efficacy.debugging": 1,
+          "conscientiousness.systematicity": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "conscientiousness.systematicity": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "research_self_efficacy.debugging": -0.5
+        },
+        "D": {
+          "research_self_efficacy.debugging": 1,
+          "research_maturity.problem_abstraction": 1,
+          "academic_integrity.reproducibility": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "conscientiousness.systematicity": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    }
+  ]
+}

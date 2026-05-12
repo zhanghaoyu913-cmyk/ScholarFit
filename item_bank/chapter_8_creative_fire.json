@@ -1,0 +1,446 @@
+{
+  "chapter_id": 8,
+  "chapter": "创造之火",
+  "story_name": "Creative Fire",
+  "version": "0.1.0-draft",
+  "language": "zh-CN",
+  "items": [
+    {
+      "id": "CH8_SJT_001",
+      "chapter": "创造之火",
+      "type": "situational_judgment",
+      "constructs": [
+        "research_maturity.problem_finding",
+        "personality.openness",
+        "research_maturity.mechanism_reasoning",
+        "research_maturity.long_term_thread"
+      ],
+      "scenario": "你读完一个方向的 30 篇论文后，感觉大家都在优化指标，但问题定义本身可能有缺陷。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "research_maturity.problem_finding": 1,
+          "personality.openness": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "personality.openness": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "research_maturity.problem_finding": -0.5
+        },
+        "D": {
+          "research_maturity.problem_finding": 1,
+          "research_maturity.problem_abstraction": 1,
+          "growth.next_90_days": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "personality.openness": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_SJT_002",
+      "chapter": "创造之火",
+      "type": "situational_judgment",
+      "constructs": [
+        "research_maturity.problem_finding",
+        "personality.openness",
+        "research_maturity.mechanism_reasoning",
+        "research_maturity.long_term_thread"
+      ],
+      "scenario": "你有一个反主流想法，但导师担心它风险太高、短期不容易发。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "research_maturity.problem_finding": 1,
+          "personality.openness": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "personality.openness": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "research_maturity.problem_finding": -0.5
+        },
+        "D": {
+          "research_maturity.problem_finding": 1,
+          "research_maturity.problem_abstraction": 1,
+          "growth.next_90_days": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "personality.openness": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_SJT_003",
+      "chapter": "创造之火",
+      "type": "situational_judgment",
+      "constructs": [
+        "research_maturity.problem_finding",
+        "personality.openness",
+        "research_maturity.mechanism_reasoning",
+        "research_maturity.long_term_thread"
+      ],
+      "scenario": "你发现两个领域的方法可以连接，但还没有明确证明或实验设计。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "research_maturity.problem_finding": 1,
+          "personality.openness": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "personality.openness": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "research_maturity.problem_finding": -0.5
+        },
+        "D": {
+          "research_maturity.problem_finding": 1,
+          "research_maturity.problem_abstraction": 1,
+          "growth.next_90_days": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "personality.openness": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_SJT_004",
+      "chapter": "创造之火",
+      "type": "situational_judgment",
+      "constructs": [
+        "research_maturity.problem_finding",
+        "personality.openness",
+        "research_maturity.mechanism_reasoning",
+        "research_maturity.long_term_thread"
+      ],
+      "scenario": "你已经做出一个可发表的小改进，但它和你真正想追的问题关系不大。",
+      "question": "你下一步最可能怎么做？",
+      "options": {
+        "A": "先暂停判断，列出可验证假设、约束条件和下一步证据。",
+        "B": "优先寻找已有模板或他人建议，尽快获得外部反馈。",
+        "C": "选择短期最容易产生结果的路径，先保证可见产出。",
+        "D": "回到原始问题，重新定义目标、假设和评价标准。",
+        "E": "继续凭直觉推进，等出现更大问题时再系统复盘。"
+      },
+      "scoring": {
+        "A": {
+          "research_maturity.problem_finding": 1,
+          "personality.openness": 1,
+          "research_maturity.evidence_reasoning": 1
+        },
+        "B": {
+          "help_seeking.feedback_use": 1,
+          "personality.openness": 0.5,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "C": {
+          "research_behavior.short_term_output_orientation": 1,
+          "research_maturity.problem_finding": -0.5
+        },
+        "D": {
+          "research_maturity.problem_finding": 1,
+          "research_maturity.problem_abstraction": 1,
+          "growth.next_90_days": 0.5
+        },
+        "E": {
+          "research_behavior.random_walk_risk": 1,
+          "personality.openness": -1
+        }
+      },
+      "reporting_rule": "解释科研行为倾向、适配环境与成长建议，不输出适合/不适合读博。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_RANK_001",
+      "chapter": "创造之火",
+      "type": "ranking",
+      "constructs": [
+        "research_maturity.problem_finding",
+        "personality.openness",
+        "help_seeking.feedback_use",
+        "stress_recovery.restoration",
+        "research_behavior.short_term_output_orientation"
+      ],
+      "scenario": "在“创造之火”阶段，你面临多个互相竞争的行动选择。",
+      "question": "请按你最可能采取的顺序排序。",
+      "options": {
+        "A": "系统拆解问题并记录证据。",
+        "B": "主动找导师、同学或领域内的人做一次反馈讨论。",
+        "C": "先恢复状态，再安排下一轮行动。",
+        "D": "切换到短期更稳妥或更容易展示的任务。",
+        "E": "回到文献、数据或原始需求，检查假设是否成立。"
+      },
+      "scoring": {
+        "position_weights": [
+          2,
+          1,
+          0,
+          -1,
+          -2
+        ],
+        "options": {
+          "A": {
+            "personality.openness": 1,
+            "research_maturity.evidence_reasoning": 1
+          },
+          "B": {
+            "help_seeking.feedback_use": 1,
+            "advisor_fit.feedback_need": 0.5
+          },
+          "C": {
+            "stress_recovery.restoration": 1,
+            "emotional_stability.failure_recovery": 0.5
+          },
+          "D": {
+            "research_behavior.short_term_output_orientation": 1
+          },
+          "E": {
+            "research_maturity.problem_finding": 1,
+            "research_maturity.problem_abstraction": 0.5
+          }
+        }
+      },
+      "reporting_rule": "排序题用于估计优先级，不把任一选择解释为人格缺陷。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_RANK_002",
+      "chapter": "创造之火",
+      "type": "ranking",
+      "constructs": [
+        "research_maturity.problem_finding",
+        "personality.openness",
+        "help_seeking.feedback_use",
+        "stress_recovery.restoration",
+        "research_behavior.short_term_output_orientation"
+      ],
+      "scenario": "在“创造之火”阶段，你面临多个互相竞争的行动选择。",
+      "question": "请按你最可能采取的顺序排序。",
+      "options": {
+        "A": "系统拆解问题并记录证据。",
+        "B": "主动找导师、同学或领域内的人做一次反馈讨论。",
+        "C": "先恢复状态，再安排下一轮行动。",
+        "D": "切换到短期更稳妥或更容易展示的任务。",
+        "E": "回到文献、数据或原始需求，检查假设是否成立。"
+      },
+      "scoring": {
+        "position_weights": [
+          2,
+          1,
+          0,
+          -1,
+          -2
+        ],
+        "options": {
+          "A": {
+            "personality.openness": 1,
+            "research_maturity.evidence_reasoning": 1
+          },
+          "B": {
+            "help_seeking.feedback_use": 1,
+            "advisor_fit.feedback_need": 0.5
+          },
+          "C": {
+            "stress_recovery.restoration": 1,
+            "emotional_stability.failure_recovery": 0.5
+          },
+          "D": {
+            "research_behavior.short_term_output_orientation": 1
+          },
+          "E": {
+            "research_maturity.problem_finding": 1,
+            "research_maturity.problem_abstraction": 0.5
+          }
+        }
+      },
+      "reporting_rule": "排序题用于估计优先级，不把任一选择解释为人格缺陷。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_SLIDER_001",
+      "chapter": "创造之火",
+      "type": "slider",
+      "constructs": [
+        "direction_interest.theoretical",
+        "direction_interest.experimental",
+        "direction_interest.engineering_system"
+      ],
+      "scenario": "在“创造之火”阶段，你需要选择一种推进方式。",
+      "question": "你更接近哪一侧？",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "left_label": "先建立理论框架",
+        "right_label": "先做实验原型"
+      },
+      "scoring": {
+        "min": 1,
+        "max": 5,
+        "left": {
+          "direction_interest.theoretical": 1
+        },
+        "right": {
+          "direction_interest.experimental": 1,
+          "direction_interest.engineering_system": 0.5
+        }
+      },
+      "reporting_rule": "滑条解释为连续偏好，不作为优劣判断。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_SLIDER_002",
+      "chapter": "创造之火",
+      "type": "slider",
+      "constructs": [
+        "advisor_fit.structure_need",
+        "advisor_fit.feedback_need",
+        "advisor_fit.autonomy_tolerance",
+        "research_maturity.problem_finding"
+      ],
+      "scenario": "在“创造之火”阶段，你需要选择一种推进方式。",
+      "question": "你更接近哪一侧？",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "left_label": "需要明确任务和反馈",
+        "right_label": "可以在模糊问题中自驱探索"
+      },
+      "scoring": {
+        "min": 1,
+        "max": 5,
+        "left": {
+          "advisor_fit.structure_need": 1,
+          "advisor_fit.feedback_need": 0.5
+        },
+        "right": {
+          "advisor_fit.autonomy_tolerance": 1,
+          "research_maturity.problem_finding": 0.5
+        }
+      },
+      "reporting_rule": "滑条解释为连续偏好，不作为优劣判断。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_REFLECT_001",
+      "chapter": "创造之火",
+      "type": "reflection",
+      "constructs": [
+        "research_maturity.metacognition",
+        "stress_recovery.failure_attribution",
+        "growth.next_90_days"
+      ],
+      "scenario": "请回忆一次与你的“创造之火”主题相近的真实经历。",
+      "question": "当时发生了什么？你如何判断原因？后来做了什么改变？",
+      "scoring": {
+        "rubric": {
+          "attribution": "可控因素 vs 全局自我否定",
+          "specificity": "是否具体定位原因",
+          "strategy_change": "是否产生后续策略",
+          "emotional_regulation": "是否能恢复并继续推进",
+          "research_maturity": "是否抽象出可迁移经验"
+        }
+      },
+      "reporting_rule": "开放题需人工或可选 LLM 按 rubric 编码，不直接诊断。",
+      "validation_status": "draft"
+    },
+    {
+      "id": "CH8_BEHAVIOR_001",
+      "chapter": "创造之火",
+      "type": "behavior_evidence",
+      "constructs": [
+        "research_behavior.prior_experience",
+        "research_self_efficacy.literature_integration",
+        "research_self_efficacy.debugging",
+        "academic_integrity.reproducibility"
+      ],
+      "scenario": "过去 6 个月，你做过哪些与科研准备相关的事情？",
+      "question": "请选择所有符合的行为证据。",
+      "options": {
+        "A": "精读并整理过 10 篇以上论文。",
+        "B": "复现过论文、开源项目或公开实验。",
+        "C": "写过技术报告、survey、研究计划或论文草稿。",
+        "D": "主动找老师、博士生或同行讨论过研究问题。",
+        "E": "做过持续超过 1 个月的项目。",
+        "F": "做过实验失败、项目失败或学习失败复盘。",
+        "G": "维护过 GitHub 仓库、实验记录或可复现材料。"
+      },
+      "scoring": {
+        "options": {
+          "A": {
+            "research_self_efficacy.literature_integration": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "B": {
+            "research_self_efficacy.debugging": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "C": {
+            "research_self_efficacy.writing": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "D": {
+            "help_seeking.feedback_use": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "E": {
+            "conscientiousness.long_term_follow_through": 1,
+            "research_behavior.prior_experience": 0.5
+          },
+          "F": {
+            "research_maturity.failure_review": 1,
+            "stress_recovery.failure_attribution": 0.5
+          },
+          "G": {
+            "academic_integrity.reproducibility": 1,
+            "conscientiousness.systematicity": 0.5
+          }
+        }
+      },
+      "reporting_rule": "行为证据用于校准自评，但要考虑机会、资源与背景差异。",
+      "validation_status": "draft"
+    }
+  ]
+}
